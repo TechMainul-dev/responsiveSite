@@ -1,0 +1,232 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    border: 3px solid aqua;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+    background: #091728;
+}
+
+.navList {
+    width: 50%;
+    display: flex;
+    text-align: center;
+}
+
+.navList li {
+    list-style: none;
+    padding: 40px 20px;
+}
+
+.navList li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navList li a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+.rightNav {
+    width: 50%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/bg-02.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.boxMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf {
+    width: 70%;
+    text-align: justify;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 70%;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+.textBig {
+    font-size: 30px;
+    text-align: center;
+}
+
+.textSmall {
+    font-size: 15px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.btn:hover {
+    border-style: dotted;
+    border-color: aqua;
+
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.secLeft {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    pad: 0 65px;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 10px;
+}
+
+.thumbnail img {
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.contact {
+    background: #054760;
+    height: 440px;
+    padding-top: 10px;
+}
+
+.textCenter {
+    text-align: center;
+    color: white;
+}
+
+.form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form input,
+textarea {
+    width: 100%;
+    margin: 8px auto;
+    padding: 5px 3px;
+    font-size: 15px;
+    border: 2px solid rgb(21, 194, 165);
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* ====================================
+Copyright Area CSS
+======================================== */
+footer {
+    padding: 20px 0;
+    max-width: 500px;
+    margin: auto;
+}
+
+.inner_copyright {
+    overflow: hidden;
+}
+
+.inner_copyright p {
+    margin: 0px;
+    color: #919191;
+    font-size: 12px;
+}
+
+.left_copyright {
+    float: left;
+    width: 60%;
+}
+
+.right_copyright {
+    float: right;
+    width: 40%;
+    text-align: right;
+}

@@ -1,0 +1,71 @@
+@media only screen and (min-width: 1141px) {
+    .burger {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .logo {
+        margin-left: 0px;
+    }
+
+    .h-nav {
+        height: 72px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .navList {
+        height: 150px;
+        flex-direction: column;
+    }
+
+    .navList li {
+        padding: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .rightNav {
+        text-align: center;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .boxMain {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .secondHalf {
+        width: 70%;
+    }
+
+    .section {
+        flex-direction: column-reverse;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .textSmall,
+    .textBig,
+    .buttons {
+        text-align: center;
+    }
+
+    .textSmall {
+        text-align: justify;
+    }
+}
